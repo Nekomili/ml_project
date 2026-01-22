@@ -76,10 +76,11 @@ Training metrics and model evaluation results are preserved in the training outp
 >
 > **This repository is intended to demonstrate project principles and processes, not to be executed.**
 >
-> Due to anonymization:
+> Due to anonymization and repository size:
 > - The project is **not runnable** in its current form
 > - All credentials, API keys, and paths have been replaced with placeholders
 > - Original image data is **not included**
+> - Annotation data files (`data/labels_*`) have been removed due to large file size
 > - The purpose is to **review the process and approach**, not to use the code directly
 >
 > This is a portfolio piece showing:
