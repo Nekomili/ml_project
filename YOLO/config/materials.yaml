@@ -1,0 +1,12 @@
+# YOLO configuration file
+path: ./materials # Path to dataset directory
+train: images/train  # Path to training images
+val: images/validation      # Path to validation images
+
+# Classes
+names:
+  0: Concrete
+  1: No material
+  2: Unknown material
+  3: Plastic
+  4: Steel

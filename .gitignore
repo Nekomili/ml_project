@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.venv/
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+htmlcov/
+
+# Installers
+*.exe
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data folder - training data stored elsewhere
+data/
+
+# Notebooks outputs
+notebooks/runs/
+notebooks/datasets/
+notebooks/*.pt
+
+# YOLO large files and outputs
+YOLO/*.pth
+YOLO/*.pt
+YOLO/datasets/
+YOLO/runs/
+YOLO/hub/
+
+# Training output folders
+YOLO/material_detection_training/
+YOLO/material_training/
+YOLO/paras_dense_malli/
+YOLO/paras_yolo_malli/
+
+# Src model files
+src/*.pt

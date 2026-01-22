@@ -1,0 +1,21 @@
+services:
+  label-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - label-studio-data:/data/label-studio
+      - ./data/example_images:/images
+      - ./src:/src
+    environment:
+      - LABEL_STUDIO_USERNAME=<YOUR_USERNAME>
+      - LABEL_STUDIO_PASSWORD=<YOUR_PASSWORD>
+      - LABEL_STUDIO_LOCAL_FILES_SERVING_ENABLED=true # Optional, if you'll be serving local files
+      - LABEL_STUDIO_DISABLE_SIGNUP=true # Optional, disable signup
+      - LABEL_STUDIO_API_KEY=<YOUR_API_KEY>
+      # Add other environment variables as needed.
+
+volumes:
+  label-studio-data:

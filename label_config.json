@@ -1,0 +1,9 @@
+{
+    "tasks": [
+      {
+        "id": "1",
+        "type": "image",
+        "value": "&lt;View&gt;&lt;Image name=&quot;image&quot; value=&quot;$image&quot;/&gt;&lt;/View&gt;"
+      }
+    ]
+  }
